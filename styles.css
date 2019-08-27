@@ -1,0 +1,91 @@
+* {
+color:black;
+border: 1px solid red;
+margin: 2px;
+padding: 2px;
+background-color: aquamarine;
+}
+body {
+    color: rgb(49,58,69) ;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 6px ;
+    text-align:center ;
+}
+div {
+    min-height: 102vh;
+    width: 80vw;
+    font-size: 8px
+}
+h1  {
+    font-size: 15em
+}
+img {
+    display: flex;
+    padding: 15px;
+    margin:  auto;
+    border-radius: 160px
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    background: rgb(240, 236, 22);
+    padding: 5px;
+    width: 180px;
+    height: 100px;
+    margin-top: 10px;
+    
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  ol {
+      list-style: square;
+      padding: 0;
+  }
+ul {
+    list-style:symbols(https://www.google.cz/url?sa=i&source=images&cd=&ved=2ahUKEwiyi7ax0qDkAhXOIlAKHRH9Do0QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.e-samolepky.eu%2Fsamolepka-sipka-02%2F&psig=AOvVaw2Jw34VhrifhcQ8fmEgm6px&ust=1566912583535157);
+}
+
+
+.flex-item {
+  color: blanchedalmond;
+}
+}
+#mujSeznam {
+  list-style: circle;
+  padding: 3px;
+  font-size: 2em;
+}
+li.item{
+  padding: 6px;
+}
+.kocka, .pes {
+  color: rgb(112, 99, 209);
+}
+.kralik {
+  color: rgb(131, 52, 107);
+}
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
